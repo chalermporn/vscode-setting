@@ -1,0 +1,41 @@
+{
+  "vetur.validation.template": false,
+  "prettier.eslintIntegration": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "eslint.run": "onType",
+  "eslint.autoFixOnSave": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "all",
+  "prettier.cssEnable": [
+    "css",
+    "less",
+    "sass"
+  ],
+  "scssLint.showHighlights": false,
+  "scssLint.runOnTextChange": false,
+  "scssLint.errorBackgroundColor": "rgba(200, 0, 0, .8)",
+  "scssLint.warningBackgroundColor": "rgba(200, 120, 0, .8)",
+  "scssLint.languages": [
+      "scss"
+  ],
+  "scssLint.statusBarText": "`$(telescope) scss-lint  ${errors.length} $(x)  ${warnings.length} $(alert)`",
+  "scssLint.configDir": ""
+}

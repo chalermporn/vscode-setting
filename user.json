@@ -1,0 +1,168 @@
+{
+  "git.enableSmartCommit": true,
+  "python.linting.pylintArgs": [
+      "--load-plugins=pylint_django"
+  ],
+  "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressShowKeyBindingsNotice": true
+  },
+  "editor.minimap.enabled": false,
+  // "explorer.openEditors.visible": 0,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorCustomizations": {
+      "editorIndentGuide.activeBackground": "#ff0000"
+  },
+  "workbench.colorCustomizations":{
+      "tab.activeBackground": "#282c34",
+      "activityBar.background": "#282c34",
+      "editorGroup.background": "#282c34",
+      "sideBar.background": "#282c34"
+  },
+  "window.zoomLevel": 0,
+  "[typescript]": {
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      }
+  },
+  "[typescriptreact]": {
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      }
+  },
+  "editor.renderIndentGuides": false,
+  "cSpell.userWords": [
+      "Sceens"
+  ],
+  "gitlens.historyExplorer.enabled": true,
+  "cSpell.language": "en,en-GB,en-US",
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "guides.enabled": false,
+  "editor.tabSize": 2,
+  "git.ignoreLimitWarning": true,
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": false,
+  "javascript.validate.enable": false,
+  "gitlens.historyExplorer.enabled": true,
+  "eslint.formatOnsave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.renderWhitespace": "all",
+  // "diffEditor.ignoreTrimWhitespace": false,
+  // "editor.renderControlCharacters": false,
+  "key": "cmd+k",
+  "command": "terminal.action.clear", // does not exist today
+  "when": "terminalFocus",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "terminal.integrated.rendererType": "dom",
+  "cSpell.enabledLanguageIds": [
+      "asciidoc",
+      "c",
+      "cpp",
+      "csharp",
+      "css",
+      "dart",
+      "go",
+      "handlebars",
+      "html",
+      "jade",
+      "javascript",
+      "javascriptreact",
+      "json",
+      "latex",
+      "less",
+      "markdown",
+      "php",
+      "plaintext",
+      "pub",
+      "python",
+      "restructuredtext",
+      "rust",
+      "scss",
+      "text",
+      "typescript",
+      "typescriptreact",
+      "yml"
+  ],
+  "files.autoSave": "onFocusChange",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "vsicons.projectDetection.disableDetect": true,
+  "angular-schule.configUpdated": "0.4.5", // does not exist today,
+  "background.enabled": true,
+  "background.useDefault": false,
+  "background.customImages": [
+      // "https://thumbs.gfycat.com/BonySpottedAngora-max-1mb.gif",
+      // "https://thumbs.gfycat.com/LeafyHorribleFlicker-max-1mb.gif",
+      // "https://thumbs.gfycat.com/RedImpassionedGlobefish-max-1mb.gif",
+      "/Users/bird/Desktop/vue/cherprang/cherprang-glasses.png",
+      "/Users/bird/Desktop/vue/cherprang/cherprang-maid.png",
+      "/Users/bird/Desktop/vue/cherprang/cherprang-meme.png",
+      "/Users/bird/Desktop/vue/cherprang/cherprang-xmas.png"
+  ],
+  "background.styles": [{
+      "content": "''",
+      "pointer-events": "none",
+      "position": "absolute",
+      "width": "100%",
+      "height": "100%",
+      "background-position": "100% 100%",
+      "background-repeat": "no-repeat",
+      "opacity": 0.5,
+  },
+  {
+      "content": "''",
+      "pointer-events": "none",
+      "position": "absolute",
+      "width": "100%",
+      "height": "100%",
+      "background-position": "100% 100%",
+      "background-repeat": "no-repeat",
+      "opacity": 0.5,
+  },{
+      "content": "''",
+      "pointer-events": "none",
+      "position": "absolute",
+      "width": "100%",
+      "height": "100%",
+      "background-position": "100% 100%",
+      "background-repeat": "no-repeat",
+      "opacity": 0.3,
+  },{
+      "content": "''",
+      "pointer-events": "none",
+      "position": "absolute",
+      "width": "100%",
+      "height": "100%",
+      "background-position": "100% 100%",
+      "background-repeat": "no-repeat",
+      "opacity": 0.3,
+  },{
+      "content": "''",
+      "pointer-events": "none",
+      "position": "absolute",
+      "width": "100%",
+      "height": "100%",
+      "background-position": "100% 100%",
+      "background-repeat": "no-repeat",
+      "opacity": 0.3,
+  },{
+      "content": "''",
+      "pointer-events": "none",
+      "position": "absolute",
+      "width": "100%",
+      "height": "100%",
+      "background-position": "100% 100%",
+      "background-repeat": "no-repeat",
+      "opacity": 0.3,
+  }
+]
+}
